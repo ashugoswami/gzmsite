@@ -44,10 +44,10 @@ export default function FiltersComponent({ placeData, handleFilter }) {
                 Reset
               </Button>
             </div>
-            <h4>Location</h4>
+            <h4>Gym Name</h4>
             <input
               type="text"
-              placeholder="Enter Location"
+              placeholder="Enter Gym Name"
               style={locationStyle}
               onChange={handleSearchData}
               value={searchValue}
