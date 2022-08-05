@@ -1,0 +1,32 @@
+.filter-box {
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+}
+.search-bar {
+  width: 82rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+  padding: 30px;
+}
+.price-input {
+  border-radius: 5px;
+  padding: 5px 10px;
+  height: 55px;
+  width: 100px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid grey;
+}
+.select-place fieldset {
+  border-color: grey;
+}
+/* .flex-space-btw {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
