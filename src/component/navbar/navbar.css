@@ -1,0 +1,17 @@
+.navbar-head {
+  background: transparent;
+}
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.nav-heading {
+  width: 1150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}

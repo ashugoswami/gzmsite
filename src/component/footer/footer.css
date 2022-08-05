@@ -1,0 +1,15 @@
+.footer-heading h4 {
+  font-weight: bold;
+}
+.footer-gzm {
+  padding: 20px;
+  padding-left: 100px;
+}
+.footer-gymlogo {
+  padding-left: 40px;
+}
+.social-logo {
+  padding: 10px 0px;
+  display: flex;
+  gap: 40px;
+}
