@@ -7,6 +7,7 @@ const LocationFilter = ({ data }) => {
     Object.keys(list).forEach((item) => (reqList = reqList + " " + list[item]));
     return reqList;
   };
+
   return (
     <div>
       <h6>Locations</h6>

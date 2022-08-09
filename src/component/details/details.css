@@ -1,0 +1,46 @@
+.gym-name {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 40px;
+  background-color: black;
+  color: white;
+}
+.head-name h1 {
+  font-size: 50px;
+}
+.details-gym {
+  display: flex;
+  gap: 5px;
+  padding: 15px 10px;
+  background-color: black;
+}
+.discription {
+  flex: 1;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.842);
+  padding: 0px 25px;
+}
+.plans {
+  flex: 1;
+}
+.buynow-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 200px;
+  background-color: rgba(24, 23, 23, 0.986);
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rating {
+  background-color: rgb(165, 28, 18);
+  display: flex;
+  width: 150px;
+  height: 60px;
+  flex-direction: column;
+  align-items: center;
+}

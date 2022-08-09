@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   Button,
   Card,
@@ -9,7 +10,14 @@ import {
 } from "@mui/material";
 import img from "../../image/background.jpg";
 const CardComponent = ({ data }) => {
-  console.log("data", data);
+  // const handleClick = (data) => {
+  //   navigate(`/details/${data.city}`);
+  //   // const data = menuItems.find((item) => item.id === rpd);
+  //   // setCardDetails(data);
+  // };
+
+  console.log("carddata", data);
+
   return (
     <Card sx={{ my: 2 }}>
       <CardActionArea sx={{ display: "flex" }}>
@@ -29,9 +37,22 @@ const CardComponent = ({ data }) => {
           </Typography>
           <Button
             variant="contained"
-            sx={{ backgroundColor: "rgb(165, 28, 18)", my: 2 }}
+            // onClick={() => handleClick(data.city)}
+            sx={{
+              backgroundColor: "rgb(165, 28, 18)",
+              my: 2,
+            }}
           >
-            Book Now
+            <Link
+              to={`/details/:detail${data.gym_name}`}
+              style={{
+                textDecoration: "none",
+                listStyle: "none",
+                color: "white",
+              }}
+            >
+              Book Now
+            </Link>
           </Button>
         </CardContent>
       </CardActionArea>

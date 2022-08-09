@@ -1,0 +1,40 @@
+.plan-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  background-color: rgb(65, 62, 62);
+  border-radius: 20px;
+  width: 600px;
+  padding: 30px;
+}
+.plan-heading {
+  color: white;
+}
+.plan-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.plans-title {
+  width: 520px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+.plans p {
+  font-size: 14px;
+}
+.plan-text {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
